@@ -509,22 +509,7 @@ python drowniness_detecction.py
    - Testing procedures
    - Requirements & usage
 
-3. **`UPGRADE_SUMMARY.md`** ← What Changed
-   - Before/after comparison
-   - Old system vs new system
-   - Why 2025+ technology matters
-   - Feature breakdown
 
-4. **`ARCHITECTURE.md`** ← For Developers
-   - Code architecture explained
-   - Key sections with line numbers
-   - Algorithm flow diagrams
-   - Implementation details
-
-5. **`INDEX.md`** ← This File
-   - System overview
-   - File structure
-   - Quick reference
 
 ---
 
@@ -741,10 +726,6 @@ Want to...                          → Read...
 ────────────────────────────────────────────────────
 Get started quickly                 → QUICK_START.md
 Understand complete system          → README.md
-See what changed from old version   → UPGRADE_SUMMARY.md
-Understand the code                 → ARCHITECTURE.md
-See this overview                   → INDEX.md (this file)
-```
 
 ---
 
@@ -760,10 +741,6 @@ See this overview                   → INDEX.md (this file)
 2. Check CSV logs
 3. Understand display output
 
-### Advanced
-1. Read **UPGRADE_SUMMARY.md** (10 min)
-2. Read **ARCHITECTURE.md** (20 min)
-3. Examine code in `drowniness_detecction.py`
 
 ---
 
@@ -800,7 +777,6 @@ python drowniness_detecction.py
 ### To Read Documentation
 - Start: **QUICK_START.md** (easiest)
 - Complete: **README.md** (thorough)
-- Technical: **ARCHITECTURE.md** (code details)
 
 ### To Test
 1. Close eyes → watch 4-second countdown
@@ -1187,3 +1163,4 @@ def _log_event(self, event_type: str, eye_status: str, ear_score: float, frames:
 ✅ **Precise Logging** - Millisecond timestamps
 
 Perfect 4-second detection system! 🎯
+
